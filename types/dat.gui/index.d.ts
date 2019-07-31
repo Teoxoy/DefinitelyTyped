@@ -45,6 +45,20 @@ export interface GUIParams {
 }
 
 export class GUI {
+    static CLASS_AUTO_PLACE: string
+    static CLASS_AUTO_PLACE_CONTAINER: string
+    static CLASS_MAIN: string
+    static CLASS_CONTROLLER_ROW: string
+    static CLASS_TOO_TALL: string
+    static CLASS_CLOSED: string
+    static CLASS_CLOSE_BUTTON: string
+    static CLASS_CLOSE_TOP: string
+    static CLASS_CLOSE_BOTTOM: string
+    static CLASS_DRAG: string
+    static DEFAULT_WIDTH: number
+    static TEXT_CLOSED: string
+    static TEXT_OPEN: string
+    
     constructor(option?: GUIParams);
 
     __controllers: GUIController[];
